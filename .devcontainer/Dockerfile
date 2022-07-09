@@ -3,4 +3,5 @@ RUN pip install --upgrade pip \
     && pip install numpy \
     && pip install matplotlib \
     && pip install ipykernel \
-    && pip install autopep8
+    && pip install autopep8 \
+    && pip install pytest
