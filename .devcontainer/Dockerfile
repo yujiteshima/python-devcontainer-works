@@ -8,7 +8,8 @@ RUN pip install --upgrade pip \
     && pip install matplotlib \
     && pip install ipykernel \
     && pip install autopep8 \
-    && pip install pytest
+    && pip install pytest \
+    && pip install requests
 # python_crawling_scraping
 RUN apt update \
     && apt -y install tree
