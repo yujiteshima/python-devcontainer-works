@@ -9,7 +9,9 @@ RUN pip install --upgrade pip \
     && pip install ipykernel \
     && pip install autopep8 \
     && pip install pytest \
-    && pip install requests
+    && pip install requests \
+    && pip install lxml \
+    && pip install cssselect
 # python_crawling_scraping
 RUN apt update \
     && apt -y install tree
